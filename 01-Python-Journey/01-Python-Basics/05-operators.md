@@ -1,6 +1,6 @@
 # Python Operators
 
-## Arithmetic Operators
+# Arithmetic Operators
 
 `+` Addition  
 `-` Subtraction  
@@ -10,7 +10,6 @@
 `%` Modulus  
 `**` Exponent
 
-```python
 a = 10
 b = 3
 

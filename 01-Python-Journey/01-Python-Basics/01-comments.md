@@ -17,7 +17,7 @@ Use `#` to write a single-line comment.
 print("Hello Python")
 ```
 
-### Quick Revision
+# Quick Revision
 
 ```text
 # → Single-line comment
@@ -58,18 +58,3 @@ print("Hello Python")
 - Avoid unnecessary comments.
 - Keep comments short and meaningful.
 - Triple quotes create strings and are also used for docstrings.
-
----
-
-## 🧪 Practice
-
-```python
-# Learning Python
-
-"""
-I am building my Python foundation
-one topic at a time.
-"""
-
-print("Python Journey 🚀")
-```

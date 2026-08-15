@@ -2,9 +2,8 @@
 
 Conditions are used to make decisions in a program.
 
-## if
+#if
 
-```python
 age = 20
 
 if age >= 18:

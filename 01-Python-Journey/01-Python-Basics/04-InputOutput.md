@@ -1,19 +1,12 @@
+# Python Input & Output
 
----
-
-### `04-input-output.md`
-
-```markdown
-# ⌨️ Python Input & Output
-
-## input 
+# input 
 name = input("Enter your name: ")
 
-## Output
+# Output
 
 `print()` → displays output.
 
-```python
 print("Hello Python")
 
 ⚠️ input() always returns a str.

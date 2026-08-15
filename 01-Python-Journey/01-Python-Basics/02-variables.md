@@ -1,14 +1,7 @@
 
----
-
-### `02-variables.md`
-
-```markdown
 # 📦 Python Variables
 
 A variable is a name that refers to a value.
-
-```python
 name = "Payal"
 age = 20
 

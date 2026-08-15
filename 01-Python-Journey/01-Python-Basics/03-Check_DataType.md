@@ -1,10 +1,4 @@
-
----
-
-### `03-data-types.md`
-
-```markdown
-# 🔢 Python Data Types
+# Python Data Types
 
 Python determines the data type automatically.
 
@@ -21,9 +15,8 @@ Python determines the data type automatically.
 | `dict` | `{"name": "Payal"}` |
 | `None` | `None` |
 
-## 🔑 Keep in mind
+# Keep in mind
 
-```python
 x = 10
 print(type(x))
 
