@@ -33,9 +33,3 @@ Tuples are ordered and immutable.
 Indexing starts from 0.
 Use a tuple when the data should not be changed.
 Tuples generally have fewer methods than lists.
-
-
-Save it as **`10-tuples.md`**.
-
-
-**Next → `11-sets.md`**.
