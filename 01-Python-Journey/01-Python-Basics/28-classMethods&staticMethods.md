@@ -78,13 +78,16 @@ Easy way to remember
 self → Object
 cls  → Class
 none → Static
-🧠 Remember
+
+# Remember
 Instance method → uses self
 Class method → uses @classmethod and cls
 Static method → uses @staticmethod
 Class methods can modify class variables.
 Static methods don't automatically receive object or class information.
-Quick Example
+
+# Quick Example
+
 class Student:
     college = "SGSITS"
 

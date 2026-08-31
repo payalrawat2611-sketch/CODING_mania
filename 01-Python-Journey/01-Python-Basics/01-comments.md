@@ -17,14 +17,6 @@ Use `#` to write a single-line comment.
 print("Hello Python")
 ```
 
-# Quick Revision
-
-```text
-# → Single-line comment
-```
-
----
-
 ## 2. Multi-line Comments
 
 Python does not have a dedicated multi-line comment syntax.

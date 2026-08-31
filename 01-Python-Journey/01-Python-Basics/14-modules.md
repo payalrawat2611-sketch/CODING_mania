@@ -46,7 +46,7 @@ import datetime
 print(datetime.datetime.now())
 What is a Package?
 
-A package is a collection of related Python modules organized inside a directory.
+# A package is a collection of related Python modules organized inside a directory.
 
 Example:
 
@@ -58,7 +58,7 @@ Module vs Package
 Module → A single .py file.
 Package → A folder containing multiple Python modules.
 Remember
-import is used to use a module.
+ #  import is used to use a module.
 from ... import ... imports specific items.
 as creates an alias.
 Python provides many built-in modules.

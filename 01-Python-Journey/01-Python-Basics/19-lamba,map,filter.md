@@ -63,8 +63,8 @@ print(result)
 Output:
 
 10
-🧠 Remember
-lambda → Creates a small anonymous function.
+
+#lambda → Creates a small anonymous function.
 map() → Transforms every element.
 filter() → Selects elements based on a condition.
 reduce() → Combines elements into one result.

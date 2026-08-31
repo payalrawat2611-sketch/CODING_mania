@@ -182,14 +182,17 @@ Validation
 Read-only attributes
 Cleaner code
 Encapsulation
-🧠 Quick Revision
+
+
+# Quick Revision
 Magic Methods
 __init__() → initialize
 __str__()  → print object
 __len__()  → len(object)
 __add__()  → object + object
 __eq__()   → object == object
-Properties
+ 
+# Properties
 @property
     ↓
 Access method like an attribute

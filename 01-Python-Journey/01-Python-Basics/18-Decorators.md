@@ -62,7 +62,7 @@ Checking permissions
 Measuring execution time
 Validation
 Adding reusable functionality
-🧠 Remember
+# Remember
 Decorator → modifies a function's behavior.
 @decorator → applies a decorator.
 wrapper() → usually contains the additional functionality.

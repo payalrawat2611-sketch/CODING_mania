@@ -88,7 +88,7 @@ for x in count(5):
 
 The values are generated one at a time.
 
-🧠 Remember
+# Remember
 Iterator → accesses elements one by one.
 iter() → creates an iterator.
 next() → gets the next value.
