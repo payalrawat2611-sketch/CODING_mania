@@ -1,8 +1,8 @@
-1. What are Magic Methods?
+# 1. What are Magic Methods?
 
-Magic methods are special methods in Python that have double underscores (__) before and after their names.
+# Magic methods are special methods in Python that have double underscores (__) before and after their names.
 
-They allow objects to work with Python's built-in operations.
+# They allow objects to work with Python's built-in operations.
 
 Examples:
 
@@ -11,9 +11,9 @@ __str__
 __len__
 __add__
 __eq__
-2. __str__()
+# 2. __str__()
 
-__str__() defines what should be displayed when an object is printed.
+# __str__() defines what should be displayed when an object is printed.
 
 Without __str__():
 
@@ -25,7 +25,7 @@ student = Student("Payal")
 
 print(student)
 
-Python displays a default object representation.
+# Python displays a default object representation.
 
 With __str__():
 
@@ -44,9 +44,9 @@ print(student)
 Output:
 
 Student: Payal
-3. __len__()
+# 3. __len__()
 
-__len__() allows us to use the len() function with our objects.
+# __len__() allows us to use the len() function with our objects.
 
 class Team:
     def __init__(self, players):
@@ -63,9 +63,9 @@ print(len(team))
 Output:
 
 4
-4. __add__()
+# 4. __add__()
 
-__add__() defines what happens when we use + between objects.
+# 3. __add__() defines what happens when we use + between objects.
 
 class Number:
     def __init__(self, value):
@@ -84,31 +84,31 @@ Output:
 
 30
 
-Python internally calls:
+# Python internally calls:
 
 a.__add__(b)
-5. Common Magic Methods
-Magic Method	Purpose
-__init__()	Initializes object
-__str__()	String representation
-__len__()	Used by len()
-__add__()	+ operation
-__sub__()	- operation
-__mul__()	* operation
-__eq__()	== comparison
-__lt__()	< comparison
-__gt__()	> comparison
-Remember
+# 5. Common Magic Methods
+# Magic Method	Purpose
+__init__()	# Initializes object
+__str__()	# String representation
+__len__()	# Used by len()
+__add__()	# + operation
+__sub__()	# - operation
+__mul__()	# * operation
+__eq__()	# == comparison
+__lt__()	# < comparison
+__gt__()	# > comparison
+# Remember
 
-Magic methods allow your objects to behave like Python's built-in types.
+# Magic methods allow your objects to behave like Python's built-in types.
 
-Chapter 30 — Properties in Python
+# Chapter 30 — Properties in Python
 
-A property allows us to access a method like an attribute while still controlling how the value is accessed or modified.
+# A property allows us to access a method like an attribute while still controlling how the value is accessed or modified.
 
-Python uses the @property decorator.
+# Python uses the @property decorator.
 
-Example
+# Example
 class Student:
     def __init__(self, marks):
         self._marks = marks
@@ -126,7 +126,7 @@ Output:
 
 85
 
-Notice that we use:
+# Notice that we use:
 
 student.marks
 
@@ -134,11 +134,11 @@ instead of:
 
 student.marks()
 
-because @property makes the method behave like an attribute.
+# because @property makes the method behave like an attribute.
 
-Setter with Property
+# Setter with Property
 
-We can also control how a value is changed.
+# We can also control how a value is changed.
 
 class Student:
     def __init__(self, marks):
@@ -166,14 +166,15 @@ Output:
 
 90
 
-If we do:
+# If we do:
 
 student.marks = 150
 
 Output:
 
-Invalid marks
-Why use Properties?
+# Invalid marks
+
+# Why use Properties?
 
 Properties are useful when you want:
 
@@ -192,11 +193,11 @@ __len__()  → len(object)
 __add__()  → object + object
 __eq__()   → object == object
  
-# Properties
+ # Properties
 @property
     ↓
 Access method like an attribute
 
 @attribute.setter
     ↓
-Control how attribute is changed
+Control how attribute is changed 
