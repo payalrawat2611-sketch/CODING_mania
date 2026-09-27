@@ -62,9 +62,7 @@ print(result)
 # re.search() -> searches anywhere
 
 
-# --------------------------------------------------
 # 4. re.findall()
-# --------------------------------------------------
 
 # re.findall() returns all occurrences
 # of a pattern.
@@ -89,9 +87,7 @@ print(result)
 # []
 
 
-# --------------------------------------------------
 # 5. re.sub()
-# --------------------------------------------------
 
 # re.sub() is used to replace matching text.
 
@@ -105,9 +101,7 @@ print(result)
 # I like Python
 
 
-# --------------------------------------------------
 # 6. re.split()
-# --------------------------------------------------
 
 # re.split() splits a string according to
 # a regular expression pattern.
@@ -122,9 +116,7 @@ print(result)
 # ['apple', 'banana', 'orange']
 
 
-# --------------------------------------------------
 # 7. Special Regex Characters
-# --------------------------------------------------
 
 # \d -> matches a digit
 
@@ -150,9 +142,7 @@ print(result)
 # ['20', '15']
 
 
-# --------------------------------------------------
 # 8. \w
-# --------------------------------------------------
 
 # \w matches word characters:
 # letters, digits, and underscore.
@@ -164,9 +154,7 @@ result = re.findall(r"\w", text)
 print(result)
 
 
-# --------------------------------------------------
 # 9. \s
-# --------------------------------------------------
 
 # \s matches whitespace characters.
 
@@ -177,9 +165,7 @@ result = re.findall(r"\s", text)
 print(result)
 
 
-# --------------------------------------------------
 # 10. Character Sets []
-# --------------------------------------------------
 
 # Square brackets allow us to specify
 # a group of characters.
@@ -194,9 +180,7 @@ print(result)
 # ['cat', 'bat', 'rat']
 
 
-# --------------------------------------------------
 # 11. [0-9]
-# --------------------------------------------------
 
 # [0-9] matches digits from 0 to 9.
 
@@ -210,9 +194,7 @@ print(result)
 # ['25', '48']
 
 
-# --------------------------------------------------
 # 12. [a-z]
-# --------------------------------------------------
 
 # [a-z] matches lowercase letters.
 
@@ -226,9 +208,7 @@ print(result)
 # ['hello']
 
 
-# --------------------------------------------------
 # 13. The + Quantifier
-# --------------------------------------------------
 
 # + means one or more occurrences.
 
@@ -242,9 +222,7 @@ print(result)
 # ['a', 'aa', 'aaa', 'aaaa']
 
 
-# --------------------------------------------------
 # 14. The * Quantifier
-# --------------------------------------------------
 
 # * means zero or more occurrences.
 
@@ -258,9 +236,7 @@ print(result)
 # ['ac', 'abc', 'abbc']
 
 
-# --------------------------------------------------
 # 15. The ? Quantifier
-# --------------------------------------------------
 
 # ? means zero or one occurrence.
 
@@ -274,9 +250,7 @@ print(result)
 # ['color', 'colour']
 
 
-# --------------------------------------------------
 # 16. The . Character
-# --------------------------------------------------
 
 # A dot matches almost any single character.
 
@@ -290,9 +264,8 @@ print(result)
 # ['cat', 'cot', 'cut']
 
 
-# --------------------------------------------------
+ 
 # 17. The ^ Symbol
-# --------------------------------------------------
 
 # ^ means that the pattern should occur
 # at the beginning.
@@ -307,9 +280,7 @@ print(result)
 # ['Python']
 
 
-# --------------------------------------------------
 # 18. The $ Symbol
-# --------------------------------------------------
 
 # $ means that the pattern should occur
 # at the end.
@@ -324,9 +295,8 @@ print(result)
 # ['Python']
 
 
-# --------------------------------------------------
+
 # 19. The {n} Quantifier
-# --------------------------------------------------
 
 # {n} means exactly n occurrences.
 
@@ -340,9 +310,8 @@ print(result)
 # ['1234', '5678']
 
 
-# --------------------------------------------------
+
 # 20. Extracting Numbers from Text
-# --------------------------------------------------
 
 text = "I bought 5 books, 2 pens and 10 notebooks."
 
@@ -365,9 +334,8 @@ print(numbers)
 # [5, 2, 10]
 
 
-# --------------------------------------------------
 # 21. Extracting Words
-# --------------------------------------------------
+
 
 text = "Python is fun"
 
@@ -379,9 +347,7 @@ print(words)
 # ['Python', 'is', 'fun']
 
 
-# --------------------------------------------------
 # 22. Extracting Hashtags
-# --------------------------------------------------
 
 text = "I am learning #Python #Coding today"
 
@@ -393,9 +359,7 @@ print(hashtags)
 # ['#Python', '#Coding']
 
 
-# --------------------------------------------------
 # 23. Extracting Phone Numbers
-# --------------------------------------------------
 
 text = "Contact numbers: 9876543210 and 9123456780"
 
@@ -407,9 +371,7 @@ print(numbers)
 # ['9876543210', '9123456780']
 
 
-# --------------------------------------------------
-# 24. Basic Email Pattern
-# --------------------------------------------------
+ # 24. Basic Email Pattern
 
 email = "student@gmail.com"
 
@@ -421,9 +383,7 @@ else:
     print("Invalid email format")
 
 
-# --------------------------------------------------
 # 25. Raw Strings
-# --------------------------------------------------
 
 # Regex patterns commonly use raw strings.
 
